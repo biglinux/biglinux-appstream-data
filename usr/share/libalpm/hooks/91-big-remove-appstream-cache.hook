@@ -6,9 +6,5 @@ Target = biglinux-appstream-data
 [Action]
 Description = Updating the appstream cache BigLinux...
 When = PostTransaction
-Exec = /bin/bash -c '[ -e /usr/share/swcatalog/xml/arch/core.xml.gz ] && mv -f /usr/share/swcatalog/xml/arch/core.xml.gz /usr/share/swcatalog/xml/core.xml.gz
-[ -e /usr/share/swcatalog/xml/arch/multilib.xml.gz ] && mv -f /usr/share/swcatalog/xml/arch/multilib.xml.gz /usr/share/swcatalog/xml/multilib.xml.gz
-[ -e /usr/share/swcatalog/xml/arch/extra.xml.gz ] && mv -f /usr/share/swcatalog/xml/arch/extra.xml.gz /usr/share/swcatalog/xml/extra.xml.gz
-rmdir /usr/share/swcatalog/xml/arch
-/usr/bin/appstreamcli refresh-cache --force'
+Exec = /bin/bash -c '[ -e /usr/share/swcatalog/xml/arch/core.xml.gz ] && mv -f /usr/share/swcatalog/xml/arch/core.xml.gz /usr/share/swcatalog/xml/core.xml.gz; [ -e /usr/share/swcatalog/xml/arch/multilib.xml.gz ] && mv -f /usr/share/swcatalog/xml/arch/multilib.xml.gz /usr/share/swcatalog/xml/multilib.xml.gz; [ -e /usr/share/swcatalog/xml/arch/extra.xml.gz ] && mv -f /usr/share/swcatalog/xml/arch/extra.xml.gz /usr/share/swcatalog/xml/extra.xml.gz; rmdir /usr/share/swcatalog/xml/arch; /usr/bin/appstreamcli refresh-cache --force'
 
