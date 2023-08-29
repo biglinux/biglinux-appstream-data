@@ -1,8 +1,8 @@
 # Maintainer: Barnabé di Kartola <barnabedikartola@gmail.com>
 
-pkgname=biglinux-package-template
-pkgdesc="Package template for biglinux"
-# depends=('')
+pkgname=biglinux-appstream-data
+pkgdesc="Add brazilian translation in archlinux-appstream-data"
+depends=('archlinux-appstream-data')
 # makedepends=('')
 # conflicts=('')
 pkgver=$(date +%y.%m.%d)

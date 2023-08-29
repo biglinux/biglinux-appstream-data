@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components version="0.16" origin="archlinux-arch-multilib" time="20230827T145603">
+  <component type="desktop-application">
+    <id>io.github.xyproto.zsnes</id>
+    <name>ZSNES</name>
+    <summary>Super Nintendo emulator</summary>
+    <project_license>GPL-2.0</project_license>
+    <developer_name>Alexander F. Rødseth</developer_name>
+    <description>
+      <p>ZSNES is a classical SNES Emulator. Its development started 1998 and is was one of the most used SNES Emulators for years.</p>
+      <p>Today you should use ZSNES only for historical and nostalgia reasons, as there are Emulators out there which provide more Features and a better Game compatibility.</p>
+    </description>
+    <recommends>
+      <control>pointing</control>
+      <control>keyboard</control>
+      <control>gamepad</control>
+    </recommends>
+    <pkgname>zsnes</pkgname>
+    <launchable type="desktop-id">io.github.xyproto.zsnes.desktop</launchable>
+    <icon type="cached" width="48" height="48">zsnes_io.github.xyproto.zsnes.png</icon>
+    <icon type="cached" width="64" height="64">zsnes_io.github.xyproto.zsnes.png</icon>
+    <icon type="cached" width="128" height="128">zsnes_io.github.xyproto.zsnes.png</icon>
+    <icon type="stock">io.github.xyproto.zsnes</icon>
+    <url type="homepage">https://github.com/xyproto/zsnes</url>
+    <url type="bugtracker">https://github.com/xyproto/zsnes/issues</url>
+    <categories>
+      <category>Game</category>
+      <category>Emulator</category>
+    </categories>
+    <provides>
+      <binary>zsnes</binary>
+      <mediatype>application/vnd.nintendo.snes.rom</mediatype>
+      <mediatype>application/x-snes-rom</mediatype>
+    </provides>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://upload.wikimedia.org/wikipedia/commons/5/5d/ZSNES.jpg</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release type="stable" version="2.0.10" timestamp="1655078400"/>
+      <release type="stable" version="2.0.9" timestamp="1629244800"/>
+    </releases>
+    <content_rating type="oars-1.1"/>
+  </component>
+  <component type="desktop-application">
+    <id>com.valvesoftware.Steam.desktop</id>
+    <name>Steam</name>
+    <summary>Launcher for the Steam software distribution service</summary>
+    <project_license>LicenseRef-proprietary</project_license>
+    <developer_name>Valve Corporation</developer_name>
+    <description>
+      <p>Steam is a software distribution service with an online store, automated
+      installation, automatic updates, achievements, SteamCloud synchronized
+      savegame and screenshot functionality, and many social features.</p>
+    </description>
+    <pkgname>steam</pkgname>
+    <launchable type="desktop-id">steam.desktop</launchable>
+    <icon type="cached" width="48" height="48">steam_steam.png</icon>
+    <icon type="cached" width="64" height="64">steam_steam.png</icon>
+    <icon type="cached" width="128" height="128">steam_steam.png</icon>
+    <icon type="stock">steam</icon>
+    <url type="homepage">https://store.steampowered.com</url>
+    <url type="bugtracker">https://github.com/ValveSoftware/steam-for-linux/issues</url>
+    <categories>
+      <category>Game</category>
+      <category>PackageManager</category>
+    </categories>
+    <provides>
+      <mediatype>x-scheme-handler/steam</mediatype>
+      <mediatype>x-scheme-handler/steamlink</mediatype>
+    </provides>
+    <screenshots>
+      <screenshot>
+        <image type="source" width="1200" height="1026">https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/27766192/27b935179076c418c2f62f9440aba9c06161e4c0.jpg</image>
+      </screenshot>
+      <screenshot type="default">
+        <image type="source" width="1200" height="582">https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/27766192/ac26dea63042eec4886d5fa27854517ce374b11e.jpg</image>
+      </screenshot>
+      <screenshot>
+        <image type="source" width="1200" height="535">https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/27766192/563daff788965a9f0aa4525190ef12d8c10832d6.jpg</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release type="stable" version="1.0.0.78" timestamp="1683590400"/>
+      <release type="stable" version="1.0.0.77" timestamp="1683590400"/>
+      <release type="stable" version="1.0.0.76" timestamp="1677628800"/>
+      <release type="stable" version="1.0.0.75" timestamp="1657584000"/>
+    </releases>
+    <description xml:lang="pt-BR">
+      <p>O Steam é um serviço de distribuição de software com uma loja online, instalação automatizada, atualizações automáticas, conquistas, sincronização de jogos e capturas de tela, e muitos recursos sociais. </p>
+    </description>
+    <summary xml:lang="pt-BR">Programa para gerenciar jogos na Steam</summary>
+  </component>
+  <component type="desktop-application">
+    <id>steam-native.desktop</id>
+    <name>Steam (Native)</name>
+    <summary xml:lang="bg">Приложение за ръководене и пускане на игри в Steam</summary>
+    <summary>Application for managing and playing games on Steam</summary>
+    <summary xml:lang="cs">Aplikace pro spravování a hraní her ve službě Steam</summary>
+    <summary xml:lang="da">Applikation til at håndtere og spille spil på Steam</summary>
+    <summary xml:lang="de">Anwendung zum Verwalten und Spielen von Spielen auf Steam</summary>
+    <summary xml:lang="el">Εφαρμογή διαχείρισης παιχνιδιών στο Steam</summary>
+    <summary xml:lang="es">Aplicación para administrar y ejecutar juegos en Steam</summary>
+    <summary xml:lang="fi">Steamin pelien hallintaan ja pelaamiseen tarkoitettu sovellus</summary>
+    <summary xml:lang="fr">Application de gestion et d'utilisation des jeux sur Steam</summary>
+    <summary xml:lang="hu">Alkalmazás a Steames játékok futtatásához és kezeléséhez</summary>
+    <summary xml:lang="it">Applicazione per la gestione e l'esecuzione di giochi su Steam</summary>
+    <summary xml:lang="ja">Steam 上でゲームを管理＆プレイするためのアプリケーション</summary>
+    <summary xml:lang="ko">Steam에 있는 게임을 관리하고 플레이할 수 있는 응용 프로그램</summary>
+    <summary xml:lang="nl">Applicatie voor het beheer en het spelen van games op Steam</summary>
+    <summary xml:lang="no">Program for å administrere og spille spill på Steam</summary>
+    <summary xml:lang="pl">Aplikacja do zarządzania i uruchamiania gier na platformie Steam</summary>
+    <summary xml:lang="pt-BR">Aplicativo para jogar e gerenciar jogos no Steam</summary>
+    <summary xml:lang="pt-PT">Aplicação para organizar e executar jogos no Steam</summary>
+    <summary xml:lang="ro">Aplicație pentru administrarea și jucatul jocurilor pe Steam</summary>
+    <summary xml:lang="ru">Приложение для игр и управления играми в Steam</summary>
+    <summary xml:lang="sv">Ett program för att hantera samt spela spel på Steam</summary>
+    <summary xml:lang="th">โปรแกรมสำหรับจัดการและเล่นเกมบน Steam</summary>
+    <summary xml:lang="tr">Steam üzerinden oyun oynama ve düzenleme uygulaması</summary>
+    <summary xml:lang="uk">Програма для керування іграми та запуску ігор у Steam</summary>
+    <summary xml:lang="vi">Ứng dụng để quản lý và chơi trò chơi trên Steam</summary>
+    <summary xml:lang="zh-CN">管理和进行 Steam 游戏的应用程序</summary>
+    <summary xml:lang="zh-TW">管理並執行 Steam 遊戲的應用程式</summary>
+    <description>
+      <p>Native replacement for the Steam runtime using system libraries</p>
+    </description>
+    <pkgname>steam-native-runtime</pkgname>
+    <launchable type="desktop-id">steam-native.desktop</launchable>
+    <icon type="cached" width="48" height="48">steam-native-runtime_steam.png</icon>
+    <icon type="cached" width="64" height="64">steam-native-runtime_steam.png</icon>
+    <icon type="cached" width="128" height="128">steam-native-runtime_steam.png</icon>
+    <icon type="stock">steam</icon>
+    <categories>
+      <category>Network</category>
+      <category>FileTransfer</category>
+      <category>Game</category>
+    </categories>
+    <provides>
+      <mediatype>x-scheme-handler/steam</mediatype>
+      <mediatype>x-scheme-handler/steamlink</mediatype>
+    </provides>
+    <description xml:lang="pt-BR">
+      <p>Este é um aplicativo chamado steam-native-runtime. Ele serve como substituto para o runtime do Steam, usando bibliotecas do  sistema. </p>
+    </description>
+  </component>
+  <component type="desktop-application">
+    <id>winetricks.desktop</id>
+    <name>Winetricks</name>
+    <summary>Work around problems and install applications under Wine</summary>
+    <project_license>LGPL-2.1+</project_license>
+    <description>
+      <p>
+    Winetricks is an easy way to work around problems in Wine.
+    </p>
+      <p>
+    It lets you install missing DLLs or tweak various Wine settings individually.
+    It also has a menu of supported games/apps for which it can do all the workarounds automatically.
+    </p>
+    </description>
+    <pkgname>winetricks</pkgname>
+    <launchable type="desktop-id">winetricks.desktop</launchable>
+    <icon type="cached" width="48" height="48">winetricks_winetricks.png</icon>
+    <icon type="cached" width="64" height="64">winetricks_winetricks.png</icon>
+    <icon type="cached" width="128" height="128">winetricks_winetricks.png</icon>
+    <icon type="stock">winetricks</icon>
+    <url type="homepage">https://github.com/Winetricks/winetricks</url>
+    <categories>
+      <category>Utility</category>
+    </categories>
+    <description xml:lang="pt-BR">
+      <p>winetricks é uma forma fácil de resolver problemas no Wine. Ele permite que você instale DLLs ausentes ou  ajuste configurações individuais do Wine. Ele também possui um menu de jogos/aplicativos suportados para os quais ele pode realizar todos os truques automaticamente. </p>
+    </description>
+    <summary xml:lang="pt-BR">Resolver problemas e instalar aplicativos com o Wine</summary>
+  </component>
+</components>
